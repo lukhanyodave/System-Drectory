@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dirfilelocation:
+    image: ${DOCKER_REGISTRY-}dirfilelocation
+    build:
+      context: .
+      dockerfile: DirFileLocation\Dockerfile
